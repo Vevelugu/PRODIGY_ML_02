@@ -10,7 +10,7 @@ import matplotlib.pyplot as plt #plotting
 from sklearn.cluster import KMeans as km #k-means cluster
 #reading and organizing the data
 
-link = "https://github.com/Vevelugu/PRODIGY_ML_02/blob/main/Mall_Customers.csv?raw=true"
+link = "https://github.com/Vevelugu/PRODIGY_ML_02/blob/main/archive/Mall_Customers.csv?raw=true"
 data = pd.read_csv(link)
 spend_habit = data['Spending Score (1-100)']
 income = data['Annual Income (k$)']
